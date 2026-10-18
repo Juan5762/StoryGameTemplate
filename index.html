@@ -1,1 +1,78 @@
 <!-- Add your index page here -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>The Sacred Room</title>
+</head>
+
+<body>
+
+    <h1>The Sacred Room</h1>
+
+    <p>You are in a mansion late at night. There is a locked room in the basement, and nobody will tell you what is inside.</p>
+
+    <p>You decide to explore the mansion and discover its secrets. Be careful because something dangerous is waiting for you.</p>
+
+    <img src="https://d23.com/app/uploads/2015/07/haunted-mansion-feat2.png" alt="A scary mansion" width="300">
+
+    <h2>Create Your Character</h2>
+
+    <form action="game.html" method="get">
+
+        <p>
+            <label for="username">Enter your player name:</label>
+            <input type="text" id="username" name="username" placeholder="Your name" required>
+        </p>
+
+        <p>
+            <label for="character">Choose your character:</label>
+
+            <select id="character" name="character">
+                <option value="detective">Admin</option>
+                <option value="warrior">Developer</option>
+                <option value="survivor">Manager</option>
+            </select>
+        </p>
+
+        <p>Choose your weapon:</p>
+
+        <input type="radio" id="sword" name="weapon" value="sword" required>
+        <label for="sword">Sword</label>
+
+        <input type="radio" id="flashlight" name="weapon" value="flashlight">
+        <label for="flashlight">Flashlight</label>
+
+        <input type="radio" id="lighter" name="weapon" value="lighter">
+        <label for="lighter">Lighter</label>
+
+        <p>
+            <label for="firstmove">Where will you go first?</label>
+
+            <select id="firslo" name="firslo">
+                <option value="basement">Basement</option>
+                <option value="hallway">Hallway</option>
+                <option value="library">Library</option>
+            </select>
+        </p>
+
+
+        <p>
+            <input type="checkbox" id="ready" name="ready" value="yes" required>
+            <label for="ready">I am ready to begin.</label>
+        </p>
+
+        <input type="submit" value="Start Game">
+
+    </form>
+
+    <h2>About Me</h2>
+
+    <p>Here is my biography:</p>
+
+    <a href="about.html">About Me</a>
+
+
+
+</body>
+</html>
