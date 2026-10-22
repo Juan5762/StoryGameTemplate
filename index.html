@@ -1,1 +1,52 @@
-<!-- Add your index page here -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>The Sacred Room</title>
+</head>
+<body>
+    <h1>The Sacred Room</h1>
+
+     <p><strong>Welcome to The Sacred Room! In this game, you will go onto an adventure filled with challenges and choices.</strong></p>
+
+<form action="game.html" method="get">
+
+    <h2>Log In</h2>
+
+    <P> <strong>Please enter your username and password</strong></P>
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" required placeholder="Enter your username">
+    <br>
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required placeholder="Enter your password">
+    <br>
+   <input type="submit" value="Log In">
+
+
+<p> <strong>Please select your player and starting weapon:</strong></p>
+
+    <label for="playerselection">Choose your player:</label>
+    <br></br>
+    <input type="radio" name="playerselection" value="Justice" required>Justice the Admin
+    <input type="radio" name="playerselection" value="Matthew" required>Matthew the Developer
+    <br>
+<br>
+  <label for="startWeapon"><strong>Choose your starting weapon:</strong></label>
+  <br>
+  <select name="startWeapon" required>
+    <option value="Flashlight">Flashlight</option>
+    <option value="bow">Lighter</option>
+    <option value="staff">Gun</option>
+  </select>
+
+  <br>
+  <input type="submit" value="Start Game">
+
+  </form>
+</body>
+</html>
+
+
+
